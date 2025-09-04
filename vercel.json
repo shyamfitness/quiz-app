@@ -3,7 +3,7 @@
   "outputDirectory": "build/client",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "reactrouter",
+  "framework": "react-router",
   "functions": {
     "build/server/index.js": {
       "runtime": "@vercel/node"
