@@ -1,18 +1,7 @@
 {
+  "framework": "react-router",
   "buildCommand": "npm run build",
   "outputDirectory": "build/client",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "react-router",
-  "functions": {
-    "build/server/index.js": {
-      "runtime": "@vercel/node"
-    }
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/build/server/index.js"
-    }
-  ]
+  "installCommand": "npm install"
 }
